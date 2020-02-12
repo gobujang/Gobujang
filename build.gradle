@@ -20,10 +20,10 @@ allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 29
     defaultConfig {
         minSdkVersion 19
-        targetSdkVersion 26
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -42,6 +42,18 @@ android {
         }
     }
 }
+
+task deleteOldJar(type:Delete) {
+    delete 'release/gobujang.jar'
+}
+
+task exportJar(type:Copy) {
+    from('build/intermediates/packaged-classes/release/')
+    into('release/')
+    include('classes.jar')
+    rename('classes.jar', 'gobujang.jar')
+}
+exportJar.dependsOn(deleteOldJar, build)
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
