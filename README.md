@@ -19,7 +19,7 @@ allprojects {
 ```gradle
 dependencies {
     ...
-    implementation 'com.github.gobujang:gobujang:[version]'
+    implementation 'com.github.gobujang:gobujang:0.0.1'
 }
 ```
 <p>
