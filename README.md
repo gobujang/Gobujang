@@ -38,7 +38,7 @@ repositories {
 
 dependencies {
     ...
-    implementation 'com.gbj.gobujang:gobujang:0.1@aar'
+    implementation 'com.gbj.module.gobujang:gobujang:0.1@aar'
 }
 ```
 <p>
