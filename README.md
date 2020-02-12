@@ -1,5 +1,5 @@
 # gobujang
-
+[![](https://jitpack.io/v/gobujang/gobujang.svg)](https://jitpack.io/#gobujang/gobujang)
 
 ## Gradle
 **Add it in your root build.gradle(project).**
