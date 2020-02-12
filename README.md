@@ -1,7 +1,7 @@
 # gobujang
 [![](https://jitpack.io/v/gobujang/gobujang.svg)](https://jitpack.io/#gobujang/gobujang)
 
-## Gradle
+## 1. Gradle
 **Add it in your root build.gradle(project).**
 ```gradle
 allprojects {
@@ -26,7 +26,7 @@ dependencies {
 <img src="images/b.png" width="700">
 </p>
  
-## Build aar file
+## 2. Build aar file
 **Copy and Paste the aar file to your project's libs folder.**     
 **Implementation '[package name]: [file name]: [version code] @aar' build.gradle.**
 ```gradle
@@ -47,7 +47,7 @@ dependencies {
 
 [Download aar file](download/gobujang_aar.zip)
 
-## Build jar file
+## 3. Build jar file
 **Copy and Paste the jar file to your project's libs folder.**    
 **Right-click on the jar file and click the Add As Library... menu.**
 <p>
@@ -56,7 +56,7 @@ dependencies {
 
 [Download jar file](download/gobujang_jar.zip)
 
-## Referencing a Library Project
+## 4. Referencing a Library Project
 **Download gobujang.zip**
 
 [Download gobujang file](download/gobujang.zip)
