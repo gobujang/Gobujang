@@ -45,6 +45,8 @@ dependencies {
 <img src="images/c.png" width="700">
 </p>    
 
+[Download aar file](download/gobujang_aar.zip)
+
 ## Build jar file
 **Copy and Paste the jar file to your project's libs folder.**    
 **Right-click on the jar file and click the Add As Library... menu.**
@@ -52,7 +54,13 @@ dependencies {
 <img src="images/e.png" width="">
 </p>
 
+[Download jar file](download/gobujang_jar.zip)
+
 ## Referencing a Library Project
+**Download gobujang.zip**
+
+[Download gobujang file](download/gobujang.zip)
+
 **Add library module to settings.gradle.**    
 **Confirm that the library has been added to the project list.**
 ```gradle
