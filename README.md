@@ -100,3 +100,5 @@ dependencies {
 **This method** *GobujangManager.init()* **is used to communicate**     
 **between the library's broadcast receiver and the gobujang server application's broadcast receiver.**
 
+## After the build process
+**After the build package is uploaded somewhere (for example, Google Drive), let us know the upload link on our CP page.**
