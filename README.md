@@ -94,7 +94,7 @@ dependencies {
     }
 ```
 <p>
-<img src="images/h.png" width="">
+<img src="images/usage.PNG" width="">
 </p>
  
 **This method** *GobujangManager.init()* **is used to communicate**     
