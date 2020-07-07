@@ -113,7 +113,13 @@ website(KO) https://www.gobujang.com/
 
 **JAPANESE**
 *"GO部長ドットコムのアプリでゲームを実行してください。"*    
-website(JP) https://www.gobucho.jp/   
+website(JP) https://www.gobucho.jp/     
+
+>You need to work directly with the termination of the APP because it is assumed that 
+the APP is illegally duplicated or that the game is not played due to a code error. (case -1 or -2)
+This is in case of DRM doesn't work. - due to hacking or craking.
+On the DRM side, we can determine whether the product is genuine or not, and the APP will operate within the code of the game.
+Under normal circumstances, do all controls on the DRM side.
 
 ## After the build process
 **After the build package is uploaded somewhere (for example, Google Drive), let us know the upload link on our CP page.**
