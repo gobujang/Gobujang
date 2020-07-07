@@ -100,5 +100,21 @@ dependencies {
 **This method** *GobujangManager.init()* **is used to communicate**     
 **between the library's broadcast receiver and the gobujang server application's broadcast receiver.**
 
+## Processing according to result value.
+**1. in case of 0 result value, please play the game normally.**   
+**this case is the user using our APP without hacking or something.**   
+**2. in case of -1 or -2 and no response from server result value, the text dialogue "Play the game in the gobujang application" appears.**   
+**if the user click "OK" at this dialogue, gobujang web page will pop up.**   
+**incase of KOREAN game, popup message or website is KOREAN, JAPAN case popup with japanease. ( please check it )    
+
+**ENGLISH**
+*"Play the game in the gobujang application."*
+
+**KOREAN**
+*"고부장닷컴 앱에서 게임을 실행해주세요."* 
+
+**JAPANESE**
+*"GO部長ドットコムのアプリでゲームを実行してください。"*
+
 ## After the build process
 **After the build package is uploaded somewhere (for example, Google Drive), let us know the upload link on our CP page.**
