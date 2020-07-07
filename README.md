@@ -107,14 +107,13 @@ dependencies {
 **if the user click "OK" at this dialogue, gobujang web page will pop up.**   
 **incase of KOREAN game, popup message or website is KOREAN, JAPAN case popup with japanease. ( please check it )    
 
-**ENGLISH**
-*"Play the game in the gobujang application."*
-
 **KOREAN**
-*"고부장닷컴 앱에서 게임을 실행해주세요."* 
+*"고부장닷컴 앱에서 게임을 실행해주세요."*     
+website(KO) https://www.gobujang.com/     
 
 **JAPANESE**
-*"GO部長ドットコムのアプリでゲームを実行してください。"*
+*"GO部長ドットコムのアプリでゲームを実行してください。"*    
+website(JP) https://www.gobucho.jp/   
 
 ## After the build process
 **After the build package is uploaded somewhere (for example, Google Drive), let us know the upload link on our CP page.**
