@@ -101,10 +101,9 @@ dependencies {
 **between the library's broadcast receiver and the gobujang server application's broadcast receiver.**
 
 ## Processing according to result value.
-**1. in case of 0 result value, please play the game normally.**   
-**this case is the user using our APP without hacking or something.**   
-**2. in case of -1 or -2 and no response from server result value, the text dialogue "Play the game in the gobujang application" appears.**   
-**if the user click "OK" at this dialogue, gobujang web page will pop up.**   
+**For Case=0 result, the app executes.  This is the case when the user has been verified and authenticated.**   
+**For Case = -1, -2 or no reply from the server, the DominiGames displays “Play the game in gobujang application” (in Korean/Japanese as the case may be). **    
+**When the User clicks “OK” tab, Gobujang web page will pop-up.**   
 incase of KOREAN game, popup message or website is KOREAN, JAPAN case popup with japanease. ( please check it )    
 
 **KOREAN**
