@@ -120,5 +120,26 @@ This is in case of DRM doesn't work. - due to hacking or craking.
 On the DRM side, we can determine whether the product is genuine or not, and the APP will operate within the code of the game.
 Under normal circumstances, do all controls on the DRM side.
 
+## Remove or disable shortcut icon function.
+**If your build includes a code that automatically installs app launch shortcut icon, please remove or disable this function.**    
+    
+*AndroidManifest.xml*    
+Example of shortcut icon code:  
+```java
+<intent-filter>
+    <action android:name="android.intent.action.MAIN"/>
+    <category android:name="android.intent.category.LAUNCHER" />
+    <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+</intent-filter>
+```    
+Remove the code below.
+```java
+    <category android:name="android.intent.category.LAUNCHER" />
+    <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+```    
+**After the removal of the shortcut icon function, please provide the following information:**    
+**packageName & Activity Name of <android.intent.category.MAIN>.**
+
+
 ## After the build process
 **After the build package is uploaded somewhere (for example, Google Drive), let us know the upload link on our CP page.**
