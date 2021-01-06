@@ -112,7 +112,7 @@ website(KO) https://www.gobujang.com/
 
 **JAPANESE**
 *"GO部長ドットコムのアプリでゲームを実行してください。"*    
-website(JP) https://www.gobucho.jp/     
+website(JP) https://www.gobucho.com/     
 
 >You need to work directly with the termination of the APP because it is assumed that 
 the APP is illegally duplicated or that the game is not played due to a code error. (case -1 or -2)
